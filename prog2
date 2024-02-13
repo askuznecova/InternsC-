@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main() {
+    for (int x = 100; x < 1000; x++) {
+        //Перебираем все трехзначные числа
+        int last_digit = x % 10;
+        //Последняя цифра числа x
+        int first_two = x / 10;
+        //Первые две цифры числа x;
+        int new_number = last_digit * 100 + first_two;
+        //Формируем новое число
+        if (new_number == 237) {
+            //Проверяем условие задачи
+            std :: cout << "Число x:" << x << std :: endl;
+            
+            break;
+        }
+    }
+    return 0;
+}
