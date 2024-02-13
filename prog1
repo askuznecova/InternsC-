@@ -1,0 +1,29 @@
+#include <iostream>
+#include <cmath>
+
+int main() {
+double e, f, g, h;
+
+// Ввод значений пользователем
+std :: cout << "Введите значение e:";
+std :: cin >> e;
+
+std :: cout << "Введите значение f:";
+std :: cin >> f;
+
+std :: cout << "Введите значение g:";
+std :: cin >> g;
+
+std :: cout << "Введите значение h:";
+std :: cin >> h;
+
+// Вычислите значение значений a и b
+double a = sqrt (exp(-6)+g);
+double b = sin(g) * cos(h) + 6 * g/(e * f - 6);
+
+//Вывод результатов 
+std :: cout << "Значение a" << a << std :: endl;
+std :: cout << "Значение b" << b << std :: endl;
+
+return 0;
+}
